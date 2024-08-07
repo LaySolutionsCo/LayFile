@@ -1,0 +1,133 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: gray;
+}
+
+.title {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.button_link_div {
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.button_link {
+    color: rgb(10, 58, 154);
+    display: flex;
+    align-items: center;
+}
+
+.button_link:hover {
+    text-decoration: none;
+}
+
+.buttonheader {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: max-content;
+}
+
+.buttonheader:hover {
+    padding: 5px;
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    width: max-content;
+}
+
+header>li {
+    display: inline-block;
+    padding-left: 19px;
+    font-size: 17px;
+}
+
+header {
+    background-color: #001121;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.submit1 {
+    background-color: red;
+    border: 3px solid red;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.submit1:hover {
+    background-color: rgb(212, 41, 41);
+    border: 3px solid rgb(212, 41, 41);
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+input[type="text"]{
+    font-size: 25px;
+}
+
+
+
+.form_general3{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.link_case {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_link1{
+    margin-right: auto;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.button_link1 a{
+    color: #00549a;
+    font-size: 20px;
+}
+
+.link_case h3{
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form_suppr_share{
+    margin-left: auto;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
